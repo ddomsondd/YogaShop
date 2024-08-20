@@ -1,0 +1,67 @@
+.editproduct {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px 40px;
+    margin: 10px auto;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .editproduct-itemfield {
+    width: 100%;
+  }
+  
+  .editproduct-itemfield p {
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #454545;
+  }
+  
+  .editproduct-itemfield input,
+  .editproduct-selector,
+  .editproduct-itemfield textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid #c3c3c3;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #7b7b7b;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .editproduct-itemfield img {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 10px;
+  }
+  
+  .editproduct-bnt {
+    width: 160px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 80px;
+    background: #e5646e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .editproduct-bnt:hover {
+    background: #ff9a9f;
+  }
+  
+  @media (max-width: 800px) {
+    .editproduct {
+      padding: 20px;
+    }
+  }
+  
